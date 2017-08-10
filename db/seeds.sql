@@ -1,0 +1,10 @@
+INSERT INTO burgers (burger_name, devoured) VALUES ('Grand Mac', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Royale With Cheese', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Animal Style Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Bison Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Salmon Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Ramen Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Sushi Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Ultimate Burger', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pulled Pork Sliders', 0);

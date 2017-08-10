@@ -1,0 +1,36 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.main {
+  margin: 15px;
+}
+.burgs {
+  width: 320px;
+  display: inline-block; 
+}
+
+.form {
+  display: inline-block;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.add {
+  width: 50%;
+  margin: auto;
+}

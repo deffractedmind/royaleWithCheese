@@ -1,0 +1,47 @@
+<div class="main">
+  <h1>Eat Da Burger!</h1>
+  <h2>Burgers ready to be devoured!</h2>
+  <div class="row">
+    <div class="col-md-4">
+          {{#each burgers}}
+          {{#unless this.devoured}}
+              <div class="burgs">
+                {{this.id}}.
+                {{this.burger_name}}
+               </div>
+              <div class="form"> 
+                <form action="/{{this.id}}?_method=PUT" method="POST">
+                    <input type="hidden" name="devoured" value="true">
+                    <button type="submit">Devour!</button>
+                </form>
+              </div>
+              <br>
+          {{/unless}}
+          {{/each}}
+    </div>
+    <div class="col-md-4">
+        <img src="/assets/images/ultimate_burger_bash_with_food_network_all-stars.png">
+    </div>
+    <h2>Devoured burgers!</h2>
+    <div class="col-md-4">
+          {{#each burgers}}
+          {{#if this.devoured}}
+              <div>
+                {{this.id}}.
+                {{this.burger_name}}
+              </div>
+          {{/if}}
+          {{/each}}
+    </div>
+  </div>
+  <div class="add col-md-12">
+    <h2>Add a Burger</h2>
+    <form class="create-update-form" action="/" method="POST">
+        <div class="form-group">
+          <label for="ca">Burger Name:</label>
+          <input type="text" id="ca" name="name">
+        <button type="submit">Add Burger</button>
+        </div>
+    </form>
+  </div>
+</div>
