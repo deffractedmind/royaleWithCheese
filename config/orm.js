@@ -1,4 +1,6 @@
-var connection = require("../config/connection.js");
+// var connection = require("../config/connection.js");
+var path = require("path");
+var connection = require(path.join(__dirname,"..", "config", "connection.js"));
 
 function printQuestionMarks(num) {
   var arr = [];
